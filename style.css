@@ -1,0 +1,124 @@
+/* ===========================
+   Global Styling (Task 1)
+=========================== */
+
+body{
+    margin:0;
+    padding:0;
+    background-color:orange;
+    font-family:"Helvetica Neue", Arial, sans-serif;
+
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
+}
+
+/* ===========================
+   Header & Footer (Task 2)
+=========================== */
+
+header{
+    background-color:#0077cc;
+    color:white;
+    text-align:center;
+    font-size:32px;
+    padding:20px;
+}
+
+footer{
+    background-color:#333;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:auto;
+}
+
+/* ===========================
+   Navigation Bar (Task 3)
+=========================== */
+
+nav{
+    background-color:#333;
+    text-align:center;
+    padding:10px;
+}
+
+nav a{
+    text-decoration:none;
+    display:inline-block;
+    margin:0 15px;
+    color:white;
+    font-size:18px;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+/* ===========================
+   Card / Main Content (Task 4)
+=========================== */
+
+.card{
+    width:60%;
+    margin:30px auto;
+    padding:20px;
+    background-color:white;
+
+    border:2px solid black;
+    border-radius:15px;
+    box-shadow:5px 5px 10px gray;
+}
+
+/* ===========================
+   Headings & Paragraphs
+=========================== */
+
+h1{
+    margin:0;
+}
+
+.uppercase{
+    text-transform:uppercase;
+}
+
+/* ===========================
+   Lists (Task 5)
+=========================== */
+
+ol{
+    list-style-type:upper-roman;
+}
+
+ol li{
+    color:darkblue;
+    margin-bottom:12px;
+}
+
+dl{
+    background-color:#f2f2f2;
+    padding:15px;
+    border-radius:10px;
+}
+
+dt{
+    color:darkred;
+    font-weight:bold;
+}
+
+dd{
+    margin-bottom:10px;
+}
+
+/* ===========================
+   Layout Consistency (Task 6)
+=========================== */
+
+main{
+    flex:1;
+}
+
+.container{
+    width:60%;
+    margin:30px auto;
+}
